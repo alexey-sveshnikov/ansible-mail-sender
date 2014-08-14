@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Alexey Sveshnikov
+  description: Installs mailutils and postfix. Configures postfix to listen on local interface only. This role have no dependencies from other ansible roles.
+  license: BSD
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+    - name: Debian
+      versions:
+        - wheezy
+  categories:
+  - system
