@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Alexey Sveshnikov
-  description: Installs mailutils and postfix. Configures postfix to listen on local interface only. This role have no dependencies from other ansible roles.
+  description: Use this role if you want to send mail from your server. Installs mailutils and postfix, configures postfix to listen on local interface only.
   license: BSD
   min_ansible_version: 1.2
   platforms:
